@@ -9,6 +9,7 @@ install:
   - dbus-tools
   - dbus-daemon
   - dunst
+  - foot
   - grim
   - hyprland
   - hyprlang
