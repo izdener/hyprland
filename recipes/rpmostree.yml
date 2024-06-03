@@ -20,15 +20,15 @@ install:
   - kwallet
   - neovim
   - pam-kwallet
+  - pamixer
   - pavucontrol
   - playerctl
   - pipewire
-  - pipewire-audio
-  - pipewire-alsa
-  - pipewire-pulse
+  - pipewire-jack-audio-connection-kit
   - polkit
-  - polkit-kde-agent
+  - polkit-kde
   - power-profiles-daemon
+  - pulseaudio-utils
   - qt5-qtwayland
   - qt6-qtwayland
   - rofi-wayland
