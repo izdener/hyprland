@@ -1,0 +1,47 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-40/solopasha-hyprland-fedora-40.repo
+install:
+  - bluez
+  - bluez-tools
+  - blueman
+  - brightnessctl
+  - dbus-tools
+  - dbus-daemon
+  - dunst
+  - grim
+  - hyprland
+  - hyprlang
+  - hyprcursor
+  - hyprpaper
+  - hypridle
+  - hyprlock
+  - kanshi
+  - kwallet
+  - neovim
+  - pam-kwallet
+  - pavucontrol
+  - playerctl
+  - pipewire
+  - pipewire-audio
+  - pipewire-alsa
+  - pipewire-pulse
+  - polkit
+  - polkit-kde-agent
+  - power-profiles-daemon
+  - qt5-qtwayland
+  - qt6-qtwayland
+  - rofi-wayland
+  - sddm
+  - sddm-themes
+  - slurp
+  - udiskie
+  - vulkan-validation-layers
+  - vulkan-tools
+  - wireplumber
+  - xdg-user-dirs
+  - xdg-desktop-portal-hyprland
+
+remove:
+  - firefox
+  - firefox-langpacks
