@@ -1,0 +1,11 @@
+type: default-flatpaks
+notify: true
+system:
+  repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+  repo-name: flathub
+  repo-title: "Flathub (system-wide)"
+  install:
+    - org.gnome.Loupe
+    - one.ablaze.floorp
+  remove:
+    # - org.gnome.eog
