@@ -10,6 +10,7 @@ install:
   - dbus-daemon
   - dunst
   - foot
+  - greetd
   - grim
   - hyprland
   - hyprlang
@@ -33,8 +34,6 @@ install:
   - qt5-qtwayland
   - qt6-qtwayland
   - rofi-wayland
-  - sddm
-  - sddm-themes
   - slurp
   - udiskie
   - vulkan-validation-layers
