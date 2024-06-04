@@ -8,7 +8,7 @@ set -oue pipefail
 # Your code goes here.
 echo 'Creating the greeter user'
 
-useradd -M -G video greeter
+# useradd -M -G video greeter
 chmod -R go+r /etc/greetd/
 
 echo 'Enable greetd'
