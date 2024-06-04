@@ -39,6 +39,7 @@ install:
   - udiskie
   - vulkan-validation-layers
   - vulkan-tools
+  - waybar
   - wireplumber
   - xdg-user-dirs
   - xdg-desktop-portal-hyprland
