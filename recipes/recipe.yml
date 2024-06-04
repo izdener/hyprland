@@ -20,13 +20,13 @@ modules:
 #
 # ----------------------------------------------------------------
 # SystemD
-#  - type: systemd
-#    system:
-#      enabled:
-#        - sddm-boot.service
-#
+  - type: systemd
+    system:
+      enabled:
+        - sddm-boot.service
+
 # ----------------------------------------------------------------
-  - from-file: scripts.yml
+#  - from-file: scripts.yml
 # Image Signing
   - type: signing
 # ----------------------------------------------------------------
