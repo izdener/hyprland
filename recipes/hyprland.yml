@@ -1,0 +1,36 @@
+# ----------------------------------------------------------------
+### Image Details
+name: hyprland
+description: This is my personal Hyprland OS image.
+base-image: ghcr.io/ublue-os/base-main
+image-version: 40
+#
+# ----------------------------------------------------------------
+### Build Modules
+modules:
+# Files
+  - type: files
+    files:
+      - usr: /usr
+  - type: files
+    files:
+      - sddm/usr: /usr 
+# ----------------------------------------------------------------
+# Package Installions
+  - from-file: rpmostree.yml
+  - from-file: sddm.yml
+  - from-file: fonts.yml
+  - from-file: flatpaks.yml
+#
+# ----------------------------------------------------------------
+# SystemD
+  - type: systemd
+    system:
+      enabled:
+        - sddm-boot.service
+
+# ----------------------------------------------------------------
+#  - from-file: scripts.yml
+# Image Signing
+  - type: signing
+# ----------------------------------------------------------------

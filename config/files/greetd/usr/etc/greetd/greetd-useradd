@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+getent passwd greeter > /dev/null || useradd -r -g -M video greeter -c "Greetd Greeter Account" -d /var/lib/greetd -s /usr/sbin/nologin greeter

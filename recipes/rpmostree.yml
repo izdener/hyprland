@@ -33,8 +33,6 @@ install:
   - qt5-qtwayland
   - qt6-qtwayland
   - rofi-wayland
-  - sddm
-  - sddm-themes
   - slurp
   - udiskie
   - vulkan-validation-layers
@@ -43,6 +41,14 @@ install:
   - wireplumber
   - xdg-user-dirs
   - xdg-desktop-portal-hyprland
+
+  - adwaita-qt5
+  - fontawesome-fonts-all
+  - gnome-themes-extra
+  - gnome-icon-theme
+  - paper-icon-theme
+  - breeze-icon-theme 
+  - papirus-icon-theme
 
 remove:
   - firefox
