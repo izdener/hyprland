@@ -29,6 +29,11 @@ modules:
       enabled:
         - sddm-boot.service
 
+  - type: systemd
+    system:
+      enabled:
+        - sddm.service
+
 # ----------------------------------------------------------------
 #  - from-file: scripts.yml
 # Image Signing
