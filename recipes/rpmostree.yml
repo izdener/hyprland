@@ -32,6 +32,7 @@ install:
   - pulseaudio-utils
   - qt5-qtwayland
   - qt6-qtwayland
+  - ranger
   - rofi-wayland
   - slurp
   - udiskie
